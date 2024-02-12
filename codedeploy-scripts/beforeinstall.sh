@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /tmp/main
+cd /tmp/
 sudo chmod +x gradlew
 ./gradlew war
 
