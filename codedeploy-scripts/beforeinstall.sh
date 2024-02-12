@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /tmp
+cd /tmp/codedeploy2
 sudo chmod +x gradlew
 ./gradlew war
 
