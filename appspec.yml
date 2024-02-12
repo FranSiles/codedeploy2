@@ -1,7 +1,7 @@
 version: 0
 os: linux
 files:
-  - source: codedeploy2/build/libs/hola.war
+  - source: /blob/main/
     destination: /opt/tomcat/webapps
 hooks:
   BeforeInstall:
