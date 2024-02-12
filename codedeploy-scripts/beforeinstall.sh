@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /springholamundo
+cd /codedeploy2
 sudo chmod +x gradlew
 ./gradlew war
 
