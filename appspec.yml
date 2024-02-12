@@ -1,10 +1,8 @@
 version: 0
 os: linux
 files:
-  - source: /build/libs/hola.war
+  - source: codedeploy2/build/libs/hola.war
     destination: /opt/tomcat/webapps
-  - source: /tmp/codigo
-    destination: /opt/tomcat
 hooks:
   BeforeInstall:
     - location: codedeploy-scripts/beforeinstall.sh
