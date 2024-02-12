@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /opt/tomcat/webapps
+chmod +x gradlew
 ./gradlew war
 
 
