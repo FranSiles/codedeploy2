@@ -1,7 +1,7 @@
 version: 0
 os: linux
 files:
-  - source: /build/libs
+  - source: codedeploy2/build/libs
     destination: /opt/tomcat/webapps
 hooks:
   BeforeInstall:
