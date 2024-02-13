@@ -6,4 +6,3 @@ cd ./build/libs
 nombrearchivo=`ls`
 mv $nombrearchivo hola.war
 
-d-D36OW5CG4\nd-GSNYX6EG4\nd-Q0UTSNDG4
