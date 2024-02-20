@@ -26,9 +26,9 @@ jobs:
 
       -  name: lanzamiento de codedeploy
          run: |
-           aws deploy create-deployment\
-           --aplication-name "web4"\
-           --deployment-group-name "gruponuevo"\
+           aws deploy create-deployment \
+           --aplication-name "web4" \
+           --deployment-group-name "gruponuevo" \
            --github-location repository=${{ github.repository }},commitId=${{ github.sha }}
        
          
