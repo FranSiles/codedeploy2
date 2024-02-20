@@ -4,7 +4,7 @@ on:
   workflow_run:
     workflow:["Java CI with Gradle"]
     types:
-      -completed
+        -completed
 jobs:
 build:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
